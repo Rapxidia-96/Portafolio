@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "react"
@@ -29,9 +32,11 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^3.2.3",
     "mini-css-extract-plugin": "^2.6.0",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1"
-  }
+  },
+  "homepage": "https://Rapxidia-96.github.io/Portafolio"
 }
