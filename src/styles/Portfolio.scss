@@ -1,0 +1,57 @@
+@import 'vars';
+.portfolio{
+    background-color: var(--section-bg-color);
+    min-width: 320px;
+    height: auto;
+    margin: 8px;
+    border-radius: 9px;
+    box-shadow: rgba(255, 255, 255, 0.137) 0px 5px 15px;  
+    box-sizing: border-box;
+    padding: 2px 10px;
+}
+.portfolio__container h2{
+    font-size: var(--lg);
+    color: var(--primary-color);
+    text-align: center;
+}
+.portfolio__project--title,
+.portfolio__project--course{
+    margin: 0;
+}
+.portfolio__project--title{
+    font-weight: bold;
+}
+.portfolio__project--title a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--lg);
+    
+}
+.portfolio__project--course{
+    color: var(--primary-color);
+    font-size: var(--sm);
+}
+.portfolio__project--details ul{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    list-style: none;
+}
+.portfolio__project--details ul li{
+    text-decoration: none;
+    border: 1px solid var(--secundary-color);
+    color: var(--secundary-color);
+    padding: 2px 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+}
+.portfolio__project--description{
+    color: var(--secundary-color);
+    font-size: var(--sm);
+}
+
+.portfolio__project--image-container .portfolio__project--image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}

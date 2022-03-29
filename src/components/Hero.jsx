@@ -9,7 +9,7 @@ const Hero = () => {
             </div>
             <div className="info">
                 <h1>Rodrigo Alfonso Topete Anaya</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minima at sunt, molestias animi alias suscipit autem obcaecati cumque lo</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minima at sunt, molestias animi alias suscipit autem obcaecati cumque lo lo</p>
             </div>
         </section>
     );
