@@ -15,8 +15,6 @@ const Portfolio = () => {
                         </h3>
                         <p class="portfolio__project--course">Platzi</p>
                     </div>
-                    pura mamadas
-                    
                     <ul>
                         <li class="portfolio__project--item">HTML</li>
                         <li class="portfolio__project--item">CSS</li>
